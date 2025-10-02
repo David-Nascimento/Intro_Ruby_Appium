@@ -1,5 +1,0 @@
-[caps]
-automationName = "UIAutomator2"
-platformName = "Android"
-deviceName = "Nexus 5"
-app = "G:/Intro_Ruby_Appium/app/twp.apk"

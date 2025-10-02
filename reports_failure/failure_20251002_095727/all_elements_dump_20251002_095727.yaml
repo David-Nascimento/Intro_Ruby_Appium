@@ -1,0 +1,2220 @@
+---
+- :name: frameFramelayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.FrameLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2400]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '0'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout"
+- :name: linearLinearlayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.FrameLayout']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2400]']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='0']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com showing-hint
+    :strategy: xpath
+    :locator: "//*[@showing-hint='false']//android.widget.LinearLayout"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout"
+- :name: frameFramelayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.LinearLayout']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2337]']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='1']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com showing-hint
+    :strategy: xpath
+    :locator: "//*[@showing-hint='false']//android.widget.FrameLayout"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout"
+- :name: linearIoQaninjaAndroidTwpIdActionBarRoot
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/action_bar_root
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.FrameLayout']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2337]']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='2']//android.widget.LinearLayout"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    resource-id: io.qaninja.android.twp:id/action_bar_root
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+- :name: frameAndroidIdContent
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: android:id/content
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/action_bar_root']//android.widget.FrameLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.FrameLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    resource-id: android:id/content
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout"
+- :name: elmViewgroup
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.view.ViewGroup[@package='io.qaninja.android.twp' and @class='android.view.ViewGroup']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='android:id/content']//android.view.ViewGroup"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.view.ViewGroup[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.view.ViewGroup)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.view.ViewGroup
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,0][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.view.ViewGroup
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup"
+- :name: linearLinearlayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.view.ViewGroup']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2337]']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='1']//android.widget.LinearLayout"
+    :reliability: :media
+  - :name: Filho de Pai com showing-hint
+    :strategy: xpath
+    :locator: "//*[@showing-hint='false']//android.widget.LinearLayout"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,63][1080,210]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout"
+- :name: elmIoQaninjaAndroidTwpIdToolbar
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/toolbar
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.view.ViewGroup[@package='io.qaninja.android.twp' and @class='android.view.ViewGroup']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.LinearLayout']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,63][1080,210]']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='2']//android.view.ViewGroup"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.view.ViewGroup
+    text: ''
+    resource-id: io.qaninja.android.twp:id/toolbar
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,63][1080,210]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.view.ViewGroup
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup"
+- :name: relativeRelativelayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.RelativeLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.RelativeLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/toolbar']//android.widget.RelativeLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.RelativeLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.RelativeLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.RelativeLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[42,63][1080,210]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.RelativeLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout"
+- :name: imgIoQaninjaAndroidTwpIdIvback
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/ivBack
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.ImageView[@package='io.qaninja.android.twp' and @class='android.widget.ImageView']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.RelativeLayout']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[42,63][1080,210]']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.ImageView"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='1']//android.widget.ImageView"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.ImageView
+    text: ''
+    resource-id: io.qaninja.android.twp:id/ivBack
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'true'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[42,73][137,200]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.ImageView
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ImageView"
+- :name: txtLogin
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/toolbarTitle
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@text='Login']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@package='io.qaninja.android.twp' and @class='android.widget.TextView']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@package='io.qaninja.android.twp' and @text='Login']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@class='android.widget.TextView' and @text='Login']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.RelativeLayout']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[42,63][1080,210]']//android.widget.TextView"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.TextView"
+    :reliability: :media
+  :attributes:
+    index: '1'
+    package: io.qaninja.android.twp
+    class: android.widget.TextView
+    text: Login
+    resource-id: io.qaninja.android.twp:id/toolbarTitle
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[137,115][888,158]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.TextView
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.TextView"
+- :name: btnQaNinja
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/btnBuyNowToolbar
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.Button[@text='QA NINJA']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@package='io.qaninja.android.twp' and @class='android.widget.Button']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@package='io.qaninja.android.twp' and @text='QA
+      NINJA']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@class='android.widget.Button' and @text='QA
+      NINJA']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.RelativeLayout']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[42,63][1080,210]']//android.widget.Button"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.Button"
+    :reliability: :media
+  :attributes:
+    index: '2'
+    package: io.qaninja.android.twp
+    class: android.widget.Button
+    text: QA NINJA
+    resource-id: io.qaninja.android.twp:id/btnBuyNowToolbar
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'true'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[888,96][1059,177]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '3'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.Button
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.Button"
+- :name: frameIoQaninjaAndroidTwpIdFragment
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/fragment
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.view.ViewGroup']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2337]']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.widget.FrameLayout"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='1']//android.widget.FrameLayout"
+    :reliability: :media
+  :attributes:
+    index: '1'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    resource-id: io.qaninja.android.twp:id/fragment
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,210][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout"
+- :name: scrollScrollview
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.ScrollView[@package='io.qaninja.android.twp' and @class='android.widget.ScrollView']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/fragment']//android.widget.ScrollView"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.ScrollView[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.ScrollView)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.ScrollView
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,210][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.ScrollView
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView"
+- :name: elmIoQaninjaAndroidTwpIdBackgroundview
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/backgroundView
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.view.ViewGroup[@package='io.qaninja.android.twp' and @class='android.view.ViewGroup']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.ScrollView']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,210][1080,2337]']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='true']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.view.ViewGroup"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='1']//android.view.ViewGroup"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.view.ViewGroup
+    text: ''
+    resource-id: io.qaninja.android.twp:id/backgroundView
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,210][1080,2337]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.view.ViewGroup
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup"
+- :name: txtFalaQaVamosTestarOLogin
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/dialogInfoTitle
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@text='Fala QA, vamos testar o login?']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@package='io.qaninja.android.twp' and @class='android.widget.TextView']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@package='io.qaninja.android.twp' and @text='Fala
+      QA, vamos testar o login?']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@class='android.widget.TextView' and @text='Fala
+      QA, vamos testar o login?']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/backgroundView']//android.widget.TextView"
+    :reliability: :alta
+  - :name: Texto Parcial (contains)
+    :strategy: xpath
+    :locator: "//android.widget.TextView[contains(@text, 'Fala')]"
+    :reliability: :media
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.TextView[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.TextView)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.TextView
+    text: Fala QA, vamos testar o login?
+    resource-id: io.qaninja.android.twp:id/dialogInfoTitle
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,294][996,543]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.TextView
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.TextView"
+- :name: linearIoQaninjaAndroidTwpIdTvemaillayout
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/tvEmailLayout
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/backgroundView']//android.widget.LinearLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.LinearLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]"
+    :reliability: :baixa
+  :attributes:
+    index: '1'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    resource-id: io.qaninja.android.twp:id/tvEmailLayout
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,884][996,1076]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]"
+- :name: frameFramelayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/tvEmailLayout']//android.widget.FrameLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.FrameLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.FrameLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,913][996,1025]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.FrameLayout"
+- :name: inputEmail
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/etEmail
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@text='Email']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@package='io.qaninja.android.twp' and @class='android.widget.EditText']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@package='io.qaninja.android.twp' and @text='Email']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@class='android.widget.EditText' and @text='Email']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.FrameLayout']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[84,913][996,1025]']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.EditText"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.EditText
+    text: Email
+    resource-id: io.qaninja.android.twp:id/etEmail
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'true'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'true'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,913][996,1025]"
+    displayed: 'true'
+    hint: Email
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    input-type: '33'
+    drawing-order: '1'
+    showing-hint: 'true'
+    text-entry-key: 'false'
+    multiline: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    max-text-length: '5000'
+    content-invalid: 'false'
+    :tag: android.widget.EditText
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText"
+- :name: linearLinearlayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/tvEmailLayout']//android.widget.LinearLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.LinearLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.LinearLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '1'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1025][996,1076]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[1]/android.widget.LinearLayout"
+- :name: linearIoQaninjaAndroidTwpIdTvpasswordlayout
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/tvPasswordLayout
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/backgroundView']//android.widget.LinearLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.LinearLayout)[2]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]"
+    :reliability: :baixa
+  :attributes:
+    index: '2'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    resource-id: io.qaninja.android.twp:id/tvPasswordLayout
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1118][996,1310]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '3'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]"
+- :name: frameFramelayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.FrameLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/tvPasswordLayout']//android.widget.FrameLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.FrameLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.FrameLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.FrameLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1147][996,1259]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '1'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.FrameLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout"
+- :name: inputSenhaSecreta
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/etPassword
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@text='Senha secreta']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@package='io.qaninja.android.twp' and @class='android.widget.EditText']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@package='io.qaninja.android.twp' and @text='Senha
+      secreta']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.EditText[@class='android.widget.EditText' and @text='Senha
+      secreta']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.FrameLayout']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[84,1147][996,1259]']//android.widget.EditText"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.widget.EditText"
+    :reliability: :media
+  :attributes:
+    index: '0'
+    package: io.qaninja.android.twp
+    class: android.widget.EditText
+    text: Senha secreta
+    resource-id: io.qaninja.android.twp:id/etPassword
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'true'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'true'
+    password: 'true'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1147][996,1259]"
+    displayed: 'true'
+    hint: Senha secreta
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    input-type: '129'
+    drawing-order: '1'
+    showing-hint: 'true'
+    text-entry-key: 'false'
+    multiline: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    max-text-length: '5000'
+    content-invalid: 'false'
+    :tag: android.widget.EditText
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.EditText"
+- :name: linearLinearlayout
+  :locators:
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@package='io.qaninja.android.twp' and
+      @class='android.widget.LinearLayout']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/tvPasswordLayout']//android.widget.LinearLayout"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.LinearLayout[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.LinearLayout)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.LinearLayout"
+    :reliability: :baixa
+  :attributes:
+    index: '1'
+    package: io.qaninja.android.twp
+    class: android.widget.LinearLayout
+    text: ''
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1259][996,1310]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.LinearLayout
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.LinearLayout"
+- :name: btnEntrar
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: io.qaninja.android.twp:id/btnSubmit
+    :reliability: :alta
+  - :name: Texto Exato
+    :strategy: xpath
+    :locator: "//android.widget.Button[@text='ENTRAR']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@package='io.qaninja.android.twp' and @class='android.widget.Button']"
+    :reliability: :alta
+  - :name: 'Combinação: Package + Text'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@package='io.qaninja.android.twp' and @text='ENTRAR']"
+    :reliability: :alta
+  - :name: 'Combinação: Class + Text'
+    :strategy: xpath
+    :locator: "//android.widget.Button[@class='android.widget.Button' and @text='ENTRAR']"
+    :reliability: :alta
+  - :name: Filho de Pai com ID
+    :strategy: xpath
+    :locator: "//*[@resource-id='io.qaninja.android.twp:id/backgroundView']//android.widget.Button"
+    :reliability: :alta
+  - :name: Enabled é Verdadeiro
+    :strategy: xpath
+    :locator: "//android.widget.Button[@enabled='true']"
+    :reliability: :media
+  - :name: Índice na Tela (Frágil)
+    :strategy: xpath
+    :locator: "(//android.widget.Button)[1]"
+    :reliability: :baixa
+  - :name: Caminho Absoluto (Não Recomendado)
+    :strategy: xpath
+    :locator: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.Button"
+    :reliability: :baixa
+  :attributes:
+    index: '3'
+    package: io.qaninja.android.twp
+    class: android.widget.Button
+    text: ENTRAR
+    resource-id: io.qaninja.android.twp:id/btnSubmit
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'true'
+    enabled: 'true'
+    focusable: 'true'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[84,1373][996,1520]"
+    displayed: 'true'
+    a11y-important: 'true'
+    screen-reader-focusable: 'false'
+    drawing-order: '8'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.widget.Button
+    :path: "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.Button"
+- :name: elmAndroidIdNavigationbarbackground
+  :locators:
+  - :name: ID Único (Recomendado)
+    :strategy: id
+    :locator: android:id/navigationBarBackground
+    :reliability: :alta
+  - :name: 'Combinação: Package + Class'
+    :strategy: xpath
+    :locator: "//android.view.View[@package='io.qaninja.android.twp' and @class='android.view.View']"
+    :reliability: :alta
+  - :name: Filho de Pai com index
+    :strategy: xpath
+    :locator: "//*[@index='0']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com package
+    :strategy: xpath
+    :locator: "//*[@package='io.qaninja.android.twp']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com class
+    :strategy: xpath
+    :locator: "//*[@class='android.widget.FrameLayout']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com checkable
+    :strategy: xpath
+    :locator: "//*[@checkable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com checked
+    :strategy: xpath
+    :locator: "//*[@checked='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com clickable
+    :strategy: xpath
+    :locator: "//*[@clickable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com enabled
+    :strategy: xpath
+    :locator: "//*[@enabled='true']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com focusable
+    :strategy: xpath
+    :locator: "//*[@focusable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com focused
+    :strategy: xpath
+    :locator: "//*[@focused='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com long-clickable
+    :strategy: xpath
+    :locator: "//*[@long-clickable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com password
+    :strategy: xpath
+    :locator: "//*[@password='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com scrollable
+    :strategy: xpath
+    :locator: "//*[@scrollable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com selected
+    :strategy: xpath
+    :locator: "//*[@selected='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com bounds
+    :strategy: xpath
+    :locator: "//*[@bounds='[0,0][1080,2400]']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com displayed
+    :strategy: xpath
+    :locator: "//*[@displayed='true']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com a11y-important
+    :strategy: xpath
+    :locator: "//*[@a11y-important='true']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com screen-reader-focusable
+    :strategy: xpath
+    :locator: "//*[@screen-reader-focusable='false']//android.view.View"
+    :reliability: :media
+  - :name: Filho de Pai com drawing-order
+    :strategy: xpath
+    :locator: "//*[@drawing-order='0']//android.view.View"
+    :reliability: :media
+  :attributes:
+    index: '2'
+    package: io.qaninja.android.twp
+    class: android.view.View
+    text: ''
+    resource-id: android:id/navigationBarBackground
+    checkable: 'false'
+    checked: 'false'
+    clickable: 'false'
+    enabled: 'true'
+    focusable: 'false'
+    focused: 'false'
+    long-clickable: 'false'
+    password: 'false'
+    scrollable: 'false'
+    selected: 'false'
+    bounds: "[0,2337][1080,2400]"
+    displayed: 'true'
+    a11y-important: 'false'
+    screen-reader-focusable: 'false'
+    drawing-order: '2'
+    showing-hint: 'false'
+    text-entry-key: 'false'
+    dismissable: 'false'
+    a11y-focused: 'false'
+    heading: 'false'
+    live-region: '0'
+    context-clickable: 'false'
+    content-invalid: 'false'
+    :tag: android.view.View
+    :path: "/hierarchy/android.widget.FrameLayout/android.view.View"

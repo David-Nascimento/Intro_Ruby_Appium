@@ -1,0 +1,8 @@
+[caps]
+platformName   = "iOS"
+automationName = "XCUITest"
+deviceName     = "iPhone 14"
+app            = "/path/para/seu/app.ipa"
+
+[appium_lib]
+server_url = "http://127.0.0.1:4723"

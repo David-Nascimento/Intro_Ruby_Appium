@@ -1,0 +1,10 @@
+# A URL agora fica em uma seção [server] separada.
+[server]
+url = "http://127.0.0.1:4723"
+
+# A seção [caps] contém apenas as capabilities.
+[caps]
+platformName = "Android"
+"appium:deviceName" = "Android Emulator"
+"appium:automationName" = "UiAutomator2"
+"appium:app" = "D:/Projetos/Intro_Ruby_Appium/app/twp.apk"

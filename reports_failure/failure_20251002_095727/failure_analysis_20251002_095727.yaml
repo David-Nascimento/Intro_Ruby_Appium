@@ -1,0 +1,10 @@
+---
+:triage_result: :locator_issue
+:exception_class: Selenium::WebDriver::Error::NoSuchElementError
+:exception_message: An element could not be located on the page using the given search
+  parameters.
+:failed_element:
+  :selector_type: id
+  :selector_value: io.qaninja.android.twp:id/etEmai
+  :analysis_method: Análise de Código-Fonte
+:best_candidate_analysis:

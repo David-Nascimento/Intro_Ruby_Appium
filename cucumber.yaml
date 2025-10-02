@@ -1,3 +1,3 @@
-default: -p bdd -p allure
-bdd: --format pretty
-allure: --format AllureCucumber::CucumberFormatter --out=logs
+default: --format pretty --format AllureCucumber::CucumberFormatter --out reports/allure-results PLATFORM=android
+bdd: --require features
+allure: --format AllureCucumber::Formatter --out logs
